@@ -18,7 +18,8 @@ const FotoModal = observer(({ show, onHide }) => {
 
             <Modal.Body>
                 <Container className="mt-3">
-                    <Image style={{ objectFit: 'contain' }} width={450} height={500} src={process.env.REACT_APP_API_URL + foto.selectedFoto.img} />
+                    <Image style={{ objectFit: 'contain' }} width={450} height={500} 
+    src={process.env.REACT_APP_API_URL || REACT_APP_API_URL + foto.selectedFoto.img} />
                 </Container>
             </Modal.Body>
             <Modal.Footer>
