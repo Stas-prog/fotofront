@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/fotofront/static/css/main.551962fd.css",
-    "main.js": "/fotofront/static/js/main.fad656bf.js",
+    "main.js": "/fotofront/static/js/main.ab9eda83.js",
     "static/media/ftft.jpg": "/fotofront/static/media/ftft.0fad0d5970fcde048d9d.jpg",
     "static/media/ftf.jpg": "/fotofront/static/media/ftf.3ad66c13311cc9df899b.jpg",
     "static/media/fine.jpg": "/fotofront/static/media/fine.dc2026a49e36f458b943.jpg",
     "index.html": "/fotofront/index.html",
     "main.551962fd.css.map": "/fotofront/static/css/main.551962fd.css.map",
-    "main.fad656bf.js.map": "/fotofront/static/js/main.fad656bf.js.map"
+    "main.ab9eda83.js.map": "/fotofront/static/js/main.ab9eda83.js.map"
   },
   "entrypoints": [
     "static/css/main.551962fd.css",
-    "static/js/main.fad656bf.js"
+    "static/js/main.ab9eda83.js"
   ]
 }
