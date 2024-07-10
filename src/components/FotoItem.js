@@ -14,7 +14,7 @@ const FotoItem = observer(({ onClick, foto }) => {
         <Col md={2} className={"mt-3"} >
             <Card style={{ width: 150, cursor: 'pointer', backgroundColor: 'pink' }} border={"light"}>
                 <Image style={{ objectFit: 'contain' }} onClick={onClick} width={150} height={130} 
-    src={process.env.REACT_APP_API_URL || REACT_APP_API_URL + foto.img} />
+    src={process.env.REACT_APP_API_URL + foto.img || REACT_APP_API_URL + foto.img} />
                 <Button style={{ width: 2, height: 2, backgroundColor: 'lightpink', border: 'none' }} onClick={removeFoto}></Button>
             </Card>
         </Col>
