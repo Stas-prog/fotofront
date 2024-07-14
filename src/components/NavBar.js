@@ -28,7 +28,7 @@ const NavBar = observer(() => {
     return (
         <Navbar bg="success" variant="dark">
             <Container>
-                <NavLink style={{ color: '#0000CD', fontSize: '25px', fontWeight: 'bold' }} to={ALBUM_ROUTE}>FOTO ALBUM</NavLink>
+                <NavLink style={{ color: '#0000CD', fontSize: '25px', fontWeight: 'bold' }} to={ALBUM_ROUTE}>FOTOALBUM</NavLink>
                 {user.isAuth ?
                     <Nav className="ml-auto" style={{ color: '#9ACD32' }}>
                         <Button
