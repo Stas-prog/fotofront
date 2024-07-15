@@ -16,13 +16,13 @@ const FotoModal = observer(({ show, onHide }) => {
             centered
         >
 
-            <Modal.Body>
+            <Modal.Body             style={{ background: 'CornflowerBlue' }}>
                 <Container className="mt-3">
                     <Image style={{ objectFit: 'contain' }} width={450} height={500} 
     src={REACT_APP_API_URL + foto.selectedFoto.img||process.env.REACT_APP_API_URL + foto.selectedFoto.img} />
                 </Container>
             </Modal.Body>
-            <Modal.Footer>
+            <Modal.Footer             style={{ background: 'CornflowerBlue' }}>
                 <Button variant="outline-danger" onClick={onHide}>Закрити</Button>
             </Modal.Footer>
         </Modal>
